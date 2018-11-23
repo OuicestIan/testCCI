@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="css/custom.css" />
+		<title>Commande ta pizza !</title>
+	</head>
+	<body>
+		<header>
+			<h1><img src="images/logo.png" alt="pizza1" class="logo"> Ma super pizzeria</h1>
+		</header>
+			<h2>Ma commande</h2>
+		<main id="main">
+			<!-- <section>
+				<img src="images/pizza1.jpg" alt="pizza1"><br>
+				<h4>Originale Pepperoni</h4>
+				<textarea>Sauce tomate, mozzarella, saucisson pepperoni.</textarea>
+				<p>À Emporter 5,00 € - Livraison 10,99 €</p>
+				<button type="button">Ajouter</button>
+			</section>
+			<section>
+				<img src="images/pizza2.jpg" alt="pizza2"><br>
+				<h4>Peppina</h4>
+				<textarea>Sauce tomate, mozzarella, champignons, oignons, poivrons mélangés, olives noires, tomates fraîches, origan.</textarea>
+				<p>À Emporter 5,00 € - Livraison 13,00 €</p>
+				<button type="button">Ajouter</button>
+			</section>
+			<section>
+				<img src="images/pizza3.jpg" alt="pizza3"><br>
+				<h4>CHICK'N BACON BBQ</h4>
+				<textarea>Sauce barbecue, mozzarella, bacon, poulet rôti, oignons, tomates fraîches, oignons croustillants</textarea>
+				<p>À Emporter 6,00 € - Livraison 14,00 €</p>
+				<button type="button">Ajouter</button>
+			</section>
+			<section>
+				<img src="images/pizza4.jpg" alt="pizza4"><br>
+				<h4>HOT BACON BBQ</h4>
+				<textarea>Sauce barbecue, mozzarella, bacon, boulettes de boeuf assaisonnées, oignons, maïs, piments jalapeños</textarea>
+				<p>À Emporter 6,00 € - Livraison 14,00 €</p>
+				<button type="button">Ajouter</button>
+			</section>
+			<section>
+				<img src="images/pizza5.jpg" alt="pizza5"><br>
+				<h4>DIAVOLA</h4>
+				<textarea>Sauce tomate, mozzarella, boulettes de boeuf assaisonnées, poivrons mélangés, oignons, piments jalapeños.</textarea>
+				<p>À Emporter 6,00 € - Livraison 14,00 €</p>
+				<button type="button">Ajouter</button>
+			</section>
+			<section>
+				<img src="images/pizza6.jpg" alt="pizza6"><br>
+				<h4>FIGUE - CHEVRE</h4>
+				<textarea>Crème fraîche légère, mozzarella, chèvre, bacon, Fourme d’Ambert A.O.P, figues séchées et oignons, nappée de miel.</textarea>
+				<p>À Emporter 10,00 € - Livraison 15,00 €</p>
+				<button type="button">Ajouter</button>
+			</section>
+			<section>
+				<img src="images/pizza7.jpg" alt="pizza7"><br>
+				<h4>SAUMON d'ECOSSE</h4>
+				<textarea>Crème fraîche légère, mozzarella, saumon d’Écosse fumé au bois de hêtre, pommes de terre sautées et oignons, agrémentée d’une sauce crème à l’échalote et à l’aneth.</textarea>
+				<p>À Emporter 10,00 € - Livraison 15,00 €</p>
+				<button type="button">Ajouter</button>
+			</section>
+			<section>
+				<img src="images/pizza8.jpg" alt="pizza8"><br>
+				<h4>FIGUE - CHEVRE</h4>
+				<textarea>Crème fraîche légère, mozzarella, chèvre, bacon, Fourme d’Ambert A.O.P, figues séchées et oignons, nappée de miel.</textarea>
+				<p>À Emporter 10,00 € - Livraison 15,00 €</p>
+				<button type="button">Ajouter</button>
+			</section>
+			<section>
+				<img src="images/pizza9.jpg" alt="pizza9"><br>
+				<h4>SAUMON d'ECOSSE</h4>
+				<textarea>Crème fraîche légère, mozzarella, chèvre, bacon, Fourme d’Ambert A.O.P, figues séchées et oignons, nappée de miel.</textarea>
+				<p>À Emporter 10,00 € - Livraison 15,00 €</p>
+				<button type="button">Ajouter</button>
+			</section>
+			<section>
+				<img src="images/pizza10.jpg" alt="pizza10"><br>
+				<h4>DIAVOLA</h4>
+				<textarea>Sauce tomate, mozzarella, boulettes de boeuf assaisonnées, poivrons mélangés, oignons, piments jalapeños.</textarea>
+				<p>À Emporter 6,00 € - Livraison 14,00 €</p>
+				<button type="button" onclick="alert('Hello! I am an alert box!!');">Ajouter</button>
+			</section> -->
+		</main>
+		<form action="resultat.html">
+			<fieldset>
+				<legend>Mon panier</legend>
+				<label for="nom">Nom :</label>
+				<input type="text" name="nom" id="nom"><br>
+				<label for="tel">Téléphone :</label>
+				<input type="text" name="tel" id="tel"><br>
+				<hr>
+				<label for="livraison">Livraison :</label>
+				<input type="radio" name="radio" id="domicile"> Domicile
+				<input type="radio" name="radio" id="magasin"> Magasin<br>
+				<div id="adresse">
+					<label for="rue">Rue :</label>
+					<input type="text" name="rue" id="rue"><br>
+					<label for="cp">Code Postal :</label>
+					<input type="text" name="cp" id="cp"><br>
+					<label for="ville">Ville :</label>
+					<input type="text" name="ville" id="ville"><br>
+				</div>
+				<hr>
+				<label for="paiement">Paiement :</label>
+				<input type="radio" name="radio" id="enLigne"> En ligne
+				<input type="radio" name="radio" id="surPlace"> Sur place / Livraison<br>
+				<div id="cb">
+					<label for="cb">Numéro CB :</label>
+					<input type="number" name="numCb" id="numCb"><br>
+				</div>
+
+				<table id="panier">
+				  <tr>
+					<th>Réf.</th>
+					<th>Nom</th>
+					<th>Qté</th>
+					<th>Prix Unitaire</th>
+					<th>Prix total</th>
+				  </tr>
+				  <tr>
+					<th></th>
+					<th></th>
+					<th></th>
+					<th>Prix total</th>
+					<th></th>
+				  </tr>
+				</table>
+
+				<input type="submit" value="Passer la commande">
+				<input type="reset" value="Reset">
+			</fieldset>
+		</form>
+
+	<footer>
+	  <p>Contact information: <a href="mailto:pizza@pizza.piz"> pizza@pizza.piz</a>.</p>
+	</footer>
+
+	<script type="text/javascript" src="js/custom.js"></script>
+
+	</body>
+</html>
